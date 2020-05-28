@@ -42,7 +42,7 @@ public class ProdutoDAO {
 }
 
 /*
- * PARA CONTAR HISTORIA.
+ * PARA CONTAR HISTORIA DOS TEMPOS DIFICEIS.
  * 
  * public List lista() throws SQLException { List produtos = new ArrayList();
  * 
