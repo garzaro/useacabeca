@@ -4,13 +4,13 @@ public class Break {
 	
 	public static void main(String[] args) {
 		
-		for(int i = 0; i < 10; i++) {
+		for(int quebrar = 0; quebrar < 10; quebrar++) {
 			
-			if (i == 5) {
+			if (quebrar == 5) {
 				break;				
 			}
 			
-			System.out.println(i);
+			System.out.println(quebrar);
 		}
 		
 	}
@@ -21,7 +21,7 @@ public class Break {
  * A instrução continue interrompe uma iteração (no loop), se uma condição
  * especificada ocorrer, e continua com a próxima iteração no loop.
  * 
- * Este exemplo ignora o valor de 5:
+ * Este exemplo ignora o valor de 5.
  */
 
 
