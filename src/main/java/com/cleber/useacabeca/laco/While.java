@@ -2,19 +2,37 @@ package com.cleber.useacabeca.laco;
 
 public class While {
 
-	public static void main(String[] args) {
+	static int idade = 15;
+	static String nome = "Cleber";
+	static int jovem = idade;
+	static boolean sorveteIsOn = true;
 
-		int idade = 15;
+	public static void main(String[] args) {
 
 		while (idade < 18) {
 			
-			System.out.println("Voce tem " + idade + " anos, entrada proibida.");
-			idade = idade + 1;
-
+			System.out.println(nome + " Voce tem " + idade + " anos, entrada proibida.");
+			//idade = idade + 1;
+			idade++;
+	
 		}
+		System.out.println("-----------------------------------");
+		
+		if(jovem < 18) {
+			System.out.println("Ouwh criança vai tomar sorvete!!!");
+			
+		}else {
+			System.out.println("Nadegas a declarar!!!");
+		}
+		
+		while(sorveteIsOn)
+			sorveteIsOn = false; //hãnnnnn????
+			System.out.println("Come sorvete");
+		
 	}
-
+		
 }
+
 
 /*
  * O laço while e o laço for são apenas formas diferentes de uma mesma estrutura
