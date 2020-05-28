@@ -4,7 +4,7 @@ public class IfTestDois {
 	
 	public static void main(String[] args) {
 		
-		Integer cerveja = 10;
+		Integer cerveja = 0;
 		
 		if (cerveja == 10) {
 			System.out.println("Ainda tem cerveja na geladeira!!!");
