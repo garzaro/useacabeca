@@ -15,7 +15,7 @@ public class IfElse {
 			System.out.println("Foi declarado o valor " + x);			
 			
 		}
-		System.out.println("-----------------------------");
+		System.out.println("------------------------------");
 		
 		if (nome == "Cleber") {
 			System.out.println("O nome deve ser " + nome);			
