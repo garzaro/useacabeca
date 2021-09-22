@@ -6,7 +6,7 @@ public class Continue {
 
 		for (int continuar = 0; continuar < 5; continuar++) {
 
-			if (continuar == 3) {
+			if (continuar == 5) {
 				continue;
 			}
 

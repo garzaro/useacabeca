@@ -4,13 +4,15 @@ public class Break {
 	
 	public static void main(String[] args) {
 		
-		for(int quebrar = 0; quebrar < 10; quebrar++) {
+		for(int quebrarLacoAntesQuePercorraTodososValores = 0;
+				quebrarLacoAntesQuePercorraTodososValores < 10;
+				quebrarLacoAntesQuePercorraTodososValores++) {
 			
-			if (quebrar == 5) {
+			if (quebrarLacoAntesQuePercorraTodososValores == 4) {
 				break;				
 			}
 			
-			System.out.println(quebrar);
+			System.out.println(quebrarLacoAntesQuePercorraTodososValores);
 		}
 		
 	}

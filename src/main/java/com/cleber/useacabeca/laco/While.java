@@ -34,7 +34,7 @@ public class While {
 		
 		System.out.println("Antes do loop");
 		
-		while(loop < 5) {
+		while(loop < 50000) {
 			System.out.println("Dentro de loop");
 			
 			System.out.println("O valor de loop é " + loop);

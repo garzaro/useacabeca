@@ -1,16 +1,15 @@
 package com.cleber.useacabeca.laco;
 
-public class For {
-
+public class For{
+	
 	public static void main(String[] args) {
-
-		for (int i = 0; i < 3; i++) {
-
-			System.out.println(i);
+		
+		for(int lacoFor = 0; lacoFor < 5; lacoFor++) {
+			
+			System.out.println(lacoFor);
+			
 		}
-
 	}
-
 }
 
 /*

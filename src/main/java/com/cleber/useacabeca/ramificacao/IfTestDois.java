@@ -9,11 +9,11 @@ public class IfTestDois {
 		if (cerveja == 10) {
 			System.out.println("Ainda tem cerveja na geladeira!!!");
 			
-		} else if(cerveja == 0) {
-			System.out.println("Acabou a ceverja!!!");
+		} else if(cerveja == 5) {
+			System.out.println("Está esgotando a cerveja!!!");
 
 		}else {
-			System.out.println("Está esgotando a cerveja!!!");
+			System.out.println("Acabou a ceverja!!!");
 		}
 		
 	}
